@@ -5,7 +5,7 @@ contract('WineToken', (accounts) => {
     var contract;
     //var owner = "0xbA22878a8E5f411D9C0F42eE34aC4B1A3950763D";
     var owner = accounts[0];
-    var maxTotalSupply = 1e26;
+    var maxTotalSupply = 1e27;
     var OneToken = 10**18;
 
     it('should deployed contract', async ()  => {
